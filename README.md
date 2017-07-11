@@ -2,7 +2,7 @@
 
 Getting Started Elixir with TDD.
 
-## Installation
+## Usage
 
 - Clone this repository
 
