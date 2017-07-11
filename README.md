@@ -16,3 +16,9 @@ $ git clone https://github.com/shufo/elixir_101
 ```
 $ mix test
 ```
+
+- Pull Request the your code
+
+- Test results is shown in here
+
+https://travis-ci.org/shufo/elixir_101
