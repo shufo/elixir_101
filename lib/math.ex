@@ -1,4 +1,4 @@
-defmodule Math do
+defmodule Elixir101.Math do
   @moduledoc """
   Documentation for Elixir101.
   """
