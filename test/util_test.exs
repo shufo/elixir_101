@@ -1,6 +1,6 @@
 defmodule Elixir101.UtilTest do
   use ExUnit.Case
-  alias Elixir101.Util
+  alias Elixir101.Util #Utilでアクセス可能
 
   @tag :basis
   test "Write Utility module and split function to pass the below code" do

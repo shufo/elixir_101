@@ -32,6 +32,7 @@ defmodule Elixir101.Mixfile do
       {:httpoison, ">= 0.0.0"},
       {:poison, ">= 0.0.0"},
       {:credo, "~> 0.8", only: [:dev, :test], runtime: false},
+      #{:timex, "~> 2"}
     ]
   end
 end
