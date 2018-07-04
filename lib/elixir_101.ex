@@ -11,12 +11,8 @@ defmodule Elixir101 do
     end
 
     def multiply(input, multiple) do
-
-      try do
-        input |> Enum.map(fn(x) -> x * multiple end)
-      rescue
-        e in RuntimeError -> IO.puts("RuntimeError")
-        e in Protocol.UndefinedError -> IO.puts("StringCannotMultiplyError")
+      case {input, multiple} do
+        {x, y} when is_list(x) == true and y > 0 -> input |> Enum.map(fn(x) -> x * multiple end)
       end
 
     end
